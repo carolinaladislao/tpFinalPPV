@@ -1,0 +1,15 @@
+[project]
+name = "crce"
+version = "0.1.0"
+description = "TP integrador Paradigmas de Programación V - Centro Regional de Coordinación de Emergencias"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
